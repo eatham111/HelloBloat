@@ -1,0 +1,14 @@
+{
+  "name": "hello-world-bloated",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Enterprise Hello World Window Platform — a small movable window that says hello world, delivered via roughly 100,000 lines of unnecessary architecture.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate": "node generator/generate-plugins.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
